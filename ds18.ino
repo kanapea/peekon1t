@@ -19,7 +19,7 @@ void loop(void) {
 Serial.begin(9600);
   
 
-  pinMode(moistureAO, INPUT);
+  pinMode(hygroAO, INPUT);
 
     hygrometer();
     delay(500); 
